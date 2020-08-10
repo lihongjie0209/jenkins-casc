@@ -42,6 +42,9 @@ jenkins:
         - "timezone"
         - mailer:
             emailAddress: "abc@email.com"
+      - id: "test"
+        name: "test"
+        password: "test"
   slaveAgentPort: 50000
   updateCenter:
     sites:
